@@ -5,9 +5,30 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Group 3 Online Portfolio</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css";; rel="stylesheet">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>;
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
 
 	<style>
+		body {
+                   background: #f3e8f5;
+                   font-family: 'Gabarito', sans-serif;
+                }
+    
+               .navbar {
+                   background-color: #e9d8fd;
+                }
+
+               .navbar-nav .nav-link {
+                   color: #4a154b; 
+                }
+
+               .navbar-nav .nav-link:hover {
+                   color: #a678b4;
+                }
+		
 		.row1 {
                    display: flex;
                    float: center;
@@ -27,6 +48,93 @@
 	</style>
 </head>
 <body>
+
+<style>
+    .navbar {
+      background-color: #e9d8fd;
+    }
+
+    .navbar-nav .nav-link {
+      color: #4a154b; 
+    }
+
+    .navbar-nav .nav-link:hover {
+      color: #a678b4;
+    }
+
+    body {
+      font-family: 'Gabarito', sans-serif;
+    }
+
+    .rate-box {
+      background-color: #fff0ff;
+      border-radius: 20px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+      padding: 30px;
+      max-width: 500px;
+      margin: 50px auto;
+      color: #4a154b;
+    }
+
+    footer {
+      background-color: #e6ccf2;
+      color: #4a154b;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid px-4">
+      <!-- name -->
+      <a class="navbar-brand fw-bold" href="#">ICT 9 Portfolio</a>
+
+      <!-- navbar toggle -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- navbar links -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <!-- About Us -->
+          <li class="nav-item">
+            <a class="nav-link" href="mainpage.html">About Us</a>
+          </li>
+          <!-- Quarter 1 -->
+          <li class="nav-item">
+            <a class="nav-link" href="page2.html">Quarter 1</a>
+          </li>
+          <!-- Quarter 2 -->
+          <li class="nav-item">
+            <a class="nav-link" href="page3.html">Quarter 2</a>
+          </li>
+          <!-- Quarter 3 -->
+          <li class="nav-item">
+            <a class="nav-link" href="page4.html">Quarter 3</a>
+          </li>
+          <!-- Quarter 4 -->
+          <li class="nav-item">
+            <a class="nav-link" href="page5.html">Quarter 4</a>
+          </li>
+          <!-- What’s Next -->
+          <li class="nav-item">
+            <a class="nav-link" href="page6.html">What’s Next</a>
+          </li>
+          <!-- Rate Us -->
+          <li class="nav-item">
+            <a class="nav-link" href="page7.html">Rate Us</a>
+          </li>
+        </ul>
+
+        <!-- Search -->
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        </form>
+      </div>
+    </div>
+  </nav>
+	
 	<div class="container mt-5 mb-5 p-5 mx-auto d-block">
         <h1 class="text-center">Group 3 Student Portfolio</h1>
 
@@ -35,21 +143,18 @@
         <div class="row1">
 
             <div class="col-md-4">
-                <img src="" class="img-thumbnail" alt="curt" width="250" height="250">
 		<h3>Curt Fernando</h3>
         	<p><strong>Interests: </strong>put your interests here</p>
 		<p><strong>Ambition: </strong>put your ambition here</p>
 	    </div>
 
 	   <div class="col-md-4">
-                <img src="" class="img-thumbnail" alt="chloe" width="250" height="250">
 		<h3>Chloe Galope</h3>
         	<p><strong>Interests: </strong>put your interests here</p>
 		<p><strong>Ambition: </strong>put your ambition here</p>
 	    </div>
 
 	   <div class="col-md-4">
-                <img src="" class="img-thumbnail" alt="uriel" width="250" height="250">
 		<h3>Urielle Galura</h3>
         	<p><strong>Interests: </strong>put your interests here</p>
 		<p><strong>Ambition: </strong>put your ambition here</p>
@@ -60,14 +165,12 @@
 	<div class="row2">
 		 
 	   <div class="col-md-4" style="padding-left: 50px;">
-                <img src="" class="img-thumbnail" alt="lei" width="250" height="250">
 		<h3>Lei Magday</h3>
         	<p><strong>Interests: </strong>put your interests here</p>
 		<p><strong>Ambition: </strong>put your ambition here</p>
 	    </div>
 
            <div class="col-md-4" style="padding-left: 50px;">
-                <img src="" class="img-thumbnail" alt="trisha" width="250" height="250">
 		<h3>Trisha Magpantay</h3>
         	<p><strong>Interests: </strong>put your interests here</p>
 		<p><strong>Ambition: </strong>put your ambition here</p>
